@@ -50,4 +50,9 @@ public:
 	void DoActorSpawn2();
 	void DoActorSpawn3();
 
+	UFUNCTION()
+	void OnColorChanged(const FLinearColor& Color, const FString& Name);
+
+	void OnTimerFinished(AActor* Actor);
+
 };
